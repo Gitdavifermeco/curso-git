@@ -1,18 +1,21 @@
 body{
     margin: 0px;
+    color: aqua;
+}
+#Fullscreen {
+    display: grid;
+    grid-template-columns: 142.109px 819.891px;
+}
+#Item_Screen {
+    grid-column: 2/3;
 }
 
 #Menu {
-    display: flex;
+    
     background-color: beige;
-    
-}
-
-
-#Nombre {
-    
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    
+    height: 100%;
+    position: fixed;
+    grid-column: 2/3;
     
     
 }
@@ -25,4 +28,8 @@ li{
  img{
     width: 50px;
     height: 50px;
+ }
+ #Nombre {
+    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
  }
