@@ -10,7 +10,7 @@ body{
     grid-column: 2/3;
 }
 
-#Menu {
+nav {
     
     background-color: beige;
     height: 100%;

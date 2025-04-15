@@ -1,0 +1,29 @@
+git status : sirve para mirar los archivos que no estan guardados en git
+
+git add : guarda un archivo en git (si quieres traquear todos los archivos carpetas dentro de una carpeta pon despues de add . y ya)
+
+git commit : Sirve para dar una explicación o decir lo que has hecho o lo que has cambiado en el programa
+
+-m : se pone antes de un mensaje por ejemplo: git commit -m "mensaje"
+
+git log : sirve para mirar los commit que estan guardados en git
+(puedes poner --oneline para ver la informacion simplificada)
+
+Control L : impiar la terminal
+
+git checkout (Iniciales del commit): sirve para volver a una version , pero para ir al ultimo commit ponemos en vez de iniciales el nombre de la rama 
+(tambien sirve para ramas secundarias)
+(si le ponemos -b detras se para crear a un rama secundaria [no hace falta poner comillas en el nombre que le quieras dar])
+
+git reset (iniciales del commit): sirve para eliminar commit hasta uno que tu determinas  (recuerda que el contenido del codigo no se elimina, pero si quieres eliminar todo el codigo
+pon delante del reset --hard)
+
+rm (nombre del archiv) : elimina un archivo (puedes volverlo a recuperar con git restore (nombre del archivo desde el ultimo commit), pero si utilizo
+-rf .git se pierde todo si se pierde todo)
+
+git push -u origin (rama) : sirve para subir un archivo a github una vez que ya tienes las ssh
+
+git branch : sirve para ver en que rama estamos y cual o cuales estan disponibles
+
+git pull : extraer y descargar contenido desde un repositorio remoto y actualizar al instante el repositorio local para reflejar ese contenido
+(vamos osea cuando haces un pull request en github y lo quieres tener en local) 
