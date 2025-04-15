@@ -1,0 +1,6 @@
+cd.. : para salir de una carpeta
+cd (nombre de la carpeta) : para entrar en una carpeta que esta dentro de la carpeta en la que esta tu git bush funcionado
+
+ls : para saber los archivos que hay dentro de una carpeta
+
+cat (archivo) : sirve para saber la huella digital unica de un archivo (lo utilizamos normalmente para las claves ssh)
